@@ -13,6 +13,7 @@
 		DB0AEA4A1DB2889100074B91 /* LYLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0AEA491DB2889100074B91 /* LYLMeViewController.m */; };
 		DB0AEA4D1DB288C800074B91 /* LYLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0AEA4C1DB288C800074B91 /* LYLNewViewController.m */; };
 		DB0AEA501DB288F500074B91 /* LYLPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0AEA4F1DB288F500074B91 /* LYLPublishViewController.m */; };
+		DB26C7BA1DB47DFC0070CDFD /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = DB26C7B91DB47DFC0070CDFD /* UIBarButtonItem+Item.m */; };
 		DB4BDAFA1DB25C5300A11048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4BDAF91DB25C5300A11048 /* Assets.xcassets */; };
 		DB4BDAFD1DB25C5300A11048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4BDAFB1DB25C5300A11048 /* LaunchScreen.storyboard */; };
 		DBD270831DB32353008898C2 /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD270821DB32353008898C2 /* UIImage+Render.m */; };
@@ -34,6 +35,9 @@
 		DB0AEA4C1DB288C800074B91 /* LYLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLNewViewController.m; sourceTree = "<group>"; };
 		DB0AEA4E1DB288F500074B91 /* LYLPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLPublishViewController.h; sourceTree = "<group>"; };
 		DB0AEA4F1DB288F500074B91 /* LYLPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLPublishViewController.m; sourceTree = "<group>"; };
+		DB26C7B81DB47DFC0070CDFD /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		DB26C7B91DB47DFC0070CDFD /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		DB26C7BB1DB480B60070CDFD /* ElonBDJ19.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElonBDJ19.pch; sourceTree = "<group>"; };
 		DB4BDAEA1DB25C5300A11048 /* ElonBDJ19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElonBDJ19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4BDAF91DB25C5300A11048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4BDAFC1DB25C5300A11048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				DBD270821DB32353008898C2 /* UIImage+Render.m */,
 				DBD270841DB32370008898C2 /* UITabBarItem+Font.h */,
 				DBD270851DB32370008898C2 /* UITabBarItem+Font.m */,
+				DB26C7B81DB47DFC0070CDFD /* UIBarButtonItem+Item.h */,
+				DB26C7B91DB47DFC0070CDFD /* UIBarButtonItem+Item.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 			children = (
 				DBD270801DB32316008898C2 /* Category */,
 				DBF1ADA01DB26D3D00B4FC95 /* main.m */,
+				DB26C7BB1DB480B60070CDFD /* ElonBDJ19.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -414,6 +421,7 @@
 				DB0AEA411DB285A700074B91 /* LYLTabBarController.m in Sources */,
 				DB0AEA501DB288F500074B91 /* LYLPublishViewController.m in Sources */,
 				DB0AEA471DB2885500074B91 /* LYLFriendTrendViewController.m in Sources */,
+				DB26C7BA1DB47DFC0070CDFD /* UIBarButtonItem+Item.m in Sources */,
 				DB0AEA4D1DB288C800074B91 /* LYLNewViewController.m in Sources */,
 				DB0AEA441DB2883400074B91 /* LYLEssenceViewController.m in Sources */,
 				DBD270861DB32370008898C2 /* UITabBarItem+Font.m in Sources */,
@@ -528,6 +536,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XLG32MPT73;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ElonBDJ19/Classes/Other/ElonBDJ19.pch;
 				INFOPLIST_FILE = ElonBDJ19/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +552,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XLG32MPT73;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ElonBDJ19/Classes/Other/ElonBDJ19.pch;
 				INFOPLIST_FILE = ElonBDJ19/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
